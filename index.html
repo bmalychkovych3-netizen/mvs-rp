@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>База даних МВС України — RP Термінал (v5)</title>
+<style>
+  :root {
+    --bg: #0b111c;
+    --bg-elev: #111a2b;
+    --panel: #152136;
+    --panel-2: #1a2942;
+    --border: #263856;
+    --text: #e6edf7;
+    --muted: #8fa2bf;
+    --accent: #3b82f6;
+    --accent-hover: #2563eb;
+    --accent-soft: rgba(59, 130, 246, 0.14);
+    --gold: #eab308;
+    --gold-soft: rgba(234, 179, 8, 0.15);
+    --danger: #ef4444;
+    --danger-soft: rgba(239, 68, 68, 0.16);
+    --ok: #22c55e;
+    --ok-soft: rgba(34, 197, 94, 0.15);
+    --radius: 10px;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.45;
+    min-height: 100vh;
+  }
+
+  .topbar {
+    background: linear-gradient(90deg, #0d1626 0%, #13223b 50%, #0d1626 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .emblem {
+    width: 40px;
+    height: 40px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, var(--accent) 0%, #1d4ed8 100%);
+    border: 1px solid rgba(255,255,255,0.18);
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0
